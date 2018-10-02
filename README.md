@@ -46,3 +46,7 @@ Issue with download loop
 The install functions in this script were obtained from https://github.com/kc9wwh/macOSUpgrade but has been edited to fit into our environment. 
 
 I placed the majority of the upgrade into a function that takes parameters so it can be used for more than just High Sierra. We were running into issues upgrading from older versions to High Sierra. I found that by upgraded to Sierra 10.12.6 and then up to High Sierra prevents these issues and reduces errors significantly. I added functionality to check for OS Version and upgrade accordingly. I also added some user interaction to the original script to allow users to cancel if they did not want to wait for the upgrade yet.
+
+## BUG REPORTING:
+
+If you experience any bugs please report them to me at trlatimer95@gmail.com
